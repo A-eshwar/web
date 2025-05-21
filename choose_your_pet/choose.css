@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #fdf6f0;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  padding: 30px 20px 10px;
+  background-color: #fff3e6;
+  background-image: url('heading_background.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #e0c4a9;
+  color: #fff; 
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #5a3e36;
+  
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.pet-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.pet-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 220px; 
+  padding: 20px;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.pet-card:hover {
+  transform: scale(1.05);
+}
+.pet-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 0 auto 10px;
+  display: block;
+}
+.pet-card h2 {
+  font-size: 1.3rem;
+  margin: 10px 0 5px;
+  color: #3e2c2c;
+}
+
+.pet-desc {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+footer {
+  padding: 20px;
+  background-color: #fff3e6;
+}
+
+footer button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ffcc99;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+}
+
+footer button:hover {
+  background-color: #ffb84d;
+}
