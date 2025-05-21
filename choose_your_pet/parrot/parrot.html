@@ -75,6 +75,24 @@
     .bird-info a:hover {
       text-decoration: underline;
     }
+    @media (max-width: 768px) {
+  .bird-section {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .bird-image {
+     width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 15px auto;
+    display: block;
+  }
+
+  .bird-info {
+    width: 100%;
+  }
+}
   </style>
 </head>
 <body>
