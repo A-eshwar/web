@@ -75,6 +75,23 @@
     .info a:hover {
       text-decoration: underline;
     }
+      @media (max-width: 768px) {
+    .section {
+      flex-direction: column !important;
+      text-align: center;
+    }
+
+    .image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 15px auto;
+    display: block;
+    }
+    .info {
+      width: 100%;
+    }
+  }
   </style>
 </head>
 <body>
