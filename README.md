@@ -2,9 +2,7 @@
 
 # 🌐 Project Overview
 These projects demonstrate fundamental web development concepts including:
-
 Basic HTML structure and semantics
-
 CSS styling and layout techniques
 
 Responsive design principles
