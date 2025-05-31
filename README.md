@@ -1,5 +1,4 @@
 # Web Development Mini-Projects
-This repository contains a collection of web development mini-projects built using HTML and CSS.
 
 # 🌐 Project Overview
 These projects demonstrate fundamental web development concepts including:
@@ -11,10 +10,9 @@ CSS styling and layout techniques
 Responsive design principles
 
 # 📂 Projects Structure
-1. Choose Your Pet
 A responsive website showcasing different pet adoption options.
 
-Files:
+# Files:
 
 index.html - Main page with pet selection interface
 
@@ -22,7 +20,7 @@ style.css - Stylesheet for the pet selection page
 
 images/ - Directory containing pet images
 
-Features:
+# Features:
 
 Clean, card-based layout for pet displays
 
