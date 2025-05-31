@@ -29,7 +29,7 @@ Responsive design that works on mobile and desktop
 Visually appealing CSS styling
 # 🌟 Live Demo
 Experience the Choose Your Pet project online:
-🔗 Choose Your Pet Live Demo
+🔗 https://choose-your-pet2.netlify.app
 
 # 🚀 How to Use
 Clone the repository:
